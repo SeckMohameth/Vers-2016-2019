@@ -50,6 +50,8 @@ I handled a majority of the Marketing along with another friend. I used social m
 A few friends helped me with this. I edited and recored most of the video. 
 - [Marketing Video](https://www.youtube.com/watch?v=9F17vBFwjCg)
 
+The idea for the video was that Vers is all about creating moments and inviting others to be a part of it. I brainstormed with another friend on creating a blog and building a social following on Instagram and YouTube. We were gonna call it Vers One or One Culture
+
 
 ### Business
 
