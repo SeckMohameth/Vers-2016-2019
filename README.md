@@ -17,7 +17,7 @@ I started this project back in December 2016. This was before I ever learned to 
 
 # Introduction
 ![alt text](https://miro.medium.com/max/1400/1*q7tCD-Yho0cW-cQWqX3APA.jpeg)
-Vers, short for Versus, is a video sharing app and this version was specifically focused on sending video challenges to one another. The idea came to me after a week or two of using Snap chat for the first time. That same night sitting at the Kitchen table I came up with a few concepts for the app. I was brain storming ideas to make money and thought about making an app. At first I thought it would be easy, but then I started doing research. First, I found out you a need a Mac to build iOS apps and at the time I thought you just needed any computer to build for both Android and iOS. So much for that new HP computer I just bought for college. After more digging I learned about what a frontend was, and then a backend, and then databases, and well a lot of things I didn't know about at the time. I started a GoFundMe to get a Mac Book Pro and that raised $600. After finally finding a job I was able come up with the other half a buy a Mac.
+Vers, short for Versus, is a video sharing app and this version was specifically focused on sending video challenges to one another. The idea came to me after a week or two of using Snap chat for the first time. That same night sitting at the kitchen table I came up with a few concepts for the app. I was brain storming ideas to make money and thought about making an app. At first I thought it would be easy, but then I started doing research. First, I found out you a need a Mac to build iOS apps and at the time I thought you just needed any computer to build for both Android and iOS. So much for that new HP computer I just bought for college. After more digging I learned about what a frontend was, and then a backend, and then databases, and well a lot of things I didn't know about at the time. I started a GoFundMe to get a Mac Book Pro and that raised $600. After finally finding a job I was able come up with the other half a buy a Mac.
 
 
 # Motivation
@@ -37,7 +37,7 @@ I designed the UI/UX and wireframing of the app. I wrote an eleven page document
 
 ### Marketing
 
-I handled a majority of the Marketing along with another friend. I used social media to promote the app, paid for ads on Facebook and Instagram, and passed flyers around campus. I beta tested using Apple's Testflight and gained feedback on improvements. I updated users on the social media accounts on bug fixes and new features.
+I handled a majority of the Marketing along with another friend. I used social media to promote the app, paid for ads on Facebook and Instagram, and passed flyers around campus. I beta tested using Apple's Testflight and gained feedback on improvements. I updated users on the social media accounts on bug fixes and new features. I also did some email marketing from the emails I collected from the beta testing.
 
 ### Vers Social
 - [Twitter](https://twitter.com/verstheworld)
@@ -49,6 +49,7 @@ I handled a majority of the Marketing along with another friend. I used social m
 
 A few friends helped me with this. I edited and recored most of the video. 
 - [Marketing Video](https://www.youtube.com/watch?v=9F17vBFwjCg)
+
 
 ### Business
 
@@ -65,7 +66,7 @@ I also wrote a business plan and pitch deck just in case the app took off 😉
 - Not enough marketing. Just because you built it doesn't mean they'll come.
 - Costly. I had to pay for every feature I wanted to add, but the development company did fix bugs that arrise for free.
 - TEAM!!! I learned if I'm ever going to start a business I need the right team. I'm grateful for the help of my friends, but sometimes business partners should probably not be your closest friends. 
-- MVP: I shouldv'e done a better job validating my idea. Having a simple landing page would've helped find out if anyone wanted a product like this in the first place.
+- MVP: I should've done a better job validating my idea. Having a simple landing page would've helped find out if anyone wanted a product like this in the first place.
 
 Ultimately, not being able to code or finding a techinical partner were big issues.
 
