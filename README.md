@@ -62,6 +62,7 @@ I also wrote a business plan and pitch deck just in case the app took off 😉
 - Not enough marketing. Just because you built it doesn't mean they'll come.
 - Costly. I had to pay for every feature I wanted to add, but the development company did fix bugs that arrise for free.
 - TEAM!!! I learned if I'm ever going to start a business I need the right team. I'm grateful for the help of my friends, but sometimes business partners should probably not be your closest friends. 
+- MVP: I shouldv'e done a better job validating my idea. Having a simple landing page would've helped find out if anyone wanted a product like this in the first place.
 
 Ultimately, not being able to code or finding a techinical partner were big issues.
 
