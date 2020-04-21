@@ -1,6 +1,8 @@
 # Vers-2016-2019
 [Link to Full Source Code](https://drive.google.com/drive/folders/1RRCxHqmEPtgGjKrN9bDYeedPZrXQj48f?usp=sharing)
 
+Throughout this README I added links below to documents and blog posts going more in depth about the app.
+
 ## Overview
 This is the source code for the very first concept of the Vers video sharing app (Not all the code is here, just what I can get on Github 😅 files were big and too many). Started in December 2016 to January 2019.
 Currently working on a newer version of the app in a private repo.
@@ -43,6 +45,7 @@ I handled a majority of the Marketing along with another friend. I used social m
 - [Facebook](https://www.facebook.com/verstheworld/)
 - [YouTube](https://www.youtube.com/channel/UC7aMQ7Z3yFdJPeDDoBwNt4Q?view_as=subscriber)
 - [LinkedIn](https://www.linkedin.com/company/11566740/admin/) Note - we were not incorporated
+- [Medium](https://medium.com/vers-one)
 
 A few friends helped me with this. I edited and recored most of the video. 
 - [Marketing Video](https://www.youtube.com/watch?v=9F17vBFwjCg)
