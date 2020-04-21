@@ -77,7 +77,6 @@ Mohameth Seck
 [Medium](https://medium.com/@mohamethseck)
 
 # MIT License
-<hr>
 
 Copyright (c) 2020 Mohameth Seck
 
