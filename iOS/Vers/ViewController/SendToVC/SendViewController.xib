@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Rubik-Regular.ttf">
+            <string>Rubik-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SendViewController" customModule="Vers" customModuleProvider="target">
+            <connections>
+                <outlet property="descriptionVW" destination="eXb-Ox-iCQ" id="gSp-D9-tbT"/>
+                <outlet property="privacyVW" destination="0uM-Ip-BsK" id="8o6-gN-JPE"/>
+                <outlet property="titleVW" destination="SDb-fg-MHL" id="Kgx-ve-9XG"/>
+                <outlet property="txtDescriptionVW" destination="ZkA-nc-fme" id="CVp-f0-CAK"/>
+                <outlet property="txtPrivacyVW" destination="ImT-1m-3LC" id="Whw-nL-vbr"/>
+                <outlet property="txtTitleVW" destination="Izq-HL-qV7" id="cgB-a2-nq9"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mmK-AL-CWX">
+                    <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kbe-03-pWd">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oeS-Ao-Bkv">
+                                    <rect key="frame" x="40" y="38" width="22" height="14"/>
+                                    <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="11.600000381469727"/>
+                                    <color key="textColor" red="0.63529411764705879" green="0.63529411764705879" blue="0.63529411764705879" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SDb-fg-MHL">
+                                    <rect key="frame" x="30" y="57" width="260" height="44"/>
+                                    <subviews>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Bust A Move" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Izq-HL-qV7">
+                                            <rect key="frame" x="10" y="0.0" width="250" height="44"/>
+                                            <nil key="textColor"/>
+                                            <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="15"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="Izq-HL-qV7" secondAttribute="bottom" id="LyC-5j-qK8"/>
+                                        <constraint firstItem="Izq-HL-qV7" firstAttribute="top" secondItem="SDb-fg-MHL" secondAttribute="top" id="NXT-lA-uIZ"/>
+                                        <constraint firstItem="Izq-HL-qV7" firstAttribute="leading" secondItem="SDb-fg-MHL" secondAttribute="leading" constant="10" id="S1O-7u-4cw"/>
+                                        <constraint firstAttribute="trailing" secondItem="Izq-HL-qV7" secondAttribute="trailing" id="ama-XO-z3U"/>
+                                        <constraint firstAttribute="height" constant="44" id="bbs-VS-KaI"/>
+                                    </constraints>
+                                </view>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cG9-6V-l0k">
+                                    <rect key="frame" x="40" y="121" width="62.5" height="14"/>
+                                    <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="11.600000381469727"/>
+                                    <color key="textColor" red="0.63529411759999999" green="0.63529411759999999" blue="0.63529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Privacy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IZ3-0e-enD">
+                                    <rect key="frame" x="40" y="343" width="38.5" height="14"/>
+                                    <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="11.600000381469727"/>
+                                    <color key="textColor" red="0.63529411759999999" green="0.63529411759999999" blue="0.63529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0uM-Ip-BsK">
+                                    <rect key="frame" x="30" y="362" width="260" height="44"/>
+                                    <subviews>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Public" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ImT-1m-3LC">
+                                            <rect key="frame" x="10" y="0.0" width="250" height="44"/>
+                                            <nil key="textColor"/>
+                                            <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="15"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="ImT-1m-3LC" firstAttribute="leading" secondItem="0uM-Ip-BsK" secondAttribute="leading" constant="10" id="186-Yy-Zxh"/>
+                                        <constraint firstItem="ImT-1m-3LC" firstAttribute="top" secondItem="0uM-Ip-BsK" secondAttribute="top" id="6UK-wQ-qIQ"/>
+                                        <constraint firstAttribute="trailing" secondItem="ImT-1m-3LC" secondAttribute="trailing" id="Rta-lu-gZq"/>
+                                        <constraint firstAttribute="height" constant="44" id="k4j-j8-GAM"/>
+                                        <constraint firstAttribute="bottom" secondItem="ImT-1m-3LC" secondAttribute="bottom" id="qYK-CX-ZTQ"/>
+                                    </constraints>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBi-aq-Gxw">
+                                    <rect key="frame" x="95.5" y="456" width="128" height="56"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="56" id="wxs-Qk-wTa"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="15"/>
+                                    <state key="normal" title="SEND" backgroundImage="roundedRectangle">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnsendActionWithSender:" destination="-1" eventType="touchUpInside" id="Uwc-Dm-jVw"/>
+                                    </connections>
+                                </button>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eXb-Ox-iCQ">
+                                    <rect key="frame" x="30" y="140" width="260" height="183"/>
+                                    <subviews>
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZkA-nc-fme">
+                                            <rect key="frame" x="10" y="0.0" width="250" height="183"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                            <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="15"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        </textView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="ZkA-nc-fme" firstAttribute="leading" secondItem="eXb-Ox-iCQ" secondAttribute="leading" constant="10" id="5VF-lp-NhL"/>
+                                        <constraint firstAttribute="height" constant="183" id="BQ1-n3-qAY"/>
+                                        <constraint firstAttribute="bottom" secondItem="ZkA-nc-fme" secondAttribute="bottom" id="Xpb-NF-Tqg"/>
+                                        <constraint firstItem="ZkA-nc-fme" firstAttribute="top" secondItem="eXb-Ox-iCQ" secondAttribute="top" id="m6M-Y7-Js8"/>
+                                        <constraint firstAttribute="trailing" secondItem="ZkA-nc-fme" secondAttribute="trailing" id="oRJ-BC-Z8u"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="oeS-Ao-Bkv" firstAttribute="leading" secondItem="kbe-03-pWd" secondAttribute="leading" constant="40" id="6Mz-ek-3Ju"/>
+                                <constraint firstAttribute="trailing" secondItem="eXb-Ox-iCQ" secondAttribute="trailing" constant="30" id="7qU-4V-f7U"/>
+                                <constraint firstItem="SDb-fg-MHL" firstAttribute="top" secondItem="oeS-Ao-Bkv" secondAttribute="bottom" constant="5" id="8Wt-uE-Xn4"/>
+                                <constraint firstItem="IZ3-0e-enD" firstAttribute="leading" secondItem="kbe-03-pWd" secondAttribute="leading" constant="40" id="8aT-Jx-3Zy"/>
+                                <constraint firstItem="eXb-Ox-iCQ" firstAttribute="top" secondItem="cG9-6V-l0k" secondAttribute="bottom" constant="5" id="CDG-Jn-7cv"/>
+                                <constraint firstItem="cG9-6V-l0k" firstAttribute="leading" secondItem="kbe-03-pWd" secondAttribute="leading" constant="40" id="Jth-Lx-ona"/>
+                                <constraint firstItem="0uM-Ip-BsK" firstAttribute="leading" secondItem="kbe-03-pWd" secondAttribute="leading" constant="30" id="Kah-P6-dxe"/>
+                                <constraint firstItem="IZ3-0e-enD" firstAttribute="top" secondItem="eXb-Ox-iCQ" secondAttribute="bottom" constant="20" id="Li9-TS-EKR"/>
+                                <constraint firstAttribute="trailing" secondItem="SDb-fg-MHL" secondAttribute="trailing" constant="30" id="N1Y-vF-TD5"/>
+                                <constraint firstItem="SDb-fg-MHL" firstAttribute="leading" secondItem="kbe-03-pWd" secondAttribute="leading" constant="30" id="Ojx-OQ-eWW"/>
+                                <constraint firstAttribute="trailing" secondItem="0uM-Ip-BsK" secondAttribute="trailing" constant="30" id="PIp-rq-YSY"/>
+                                <constraint firstItem="eBi-aq-Gxw" firstAttribute="leading" secondItem="kbe-03-pWd" secondAttribute="leading" constant="95.5" id="QFg-WN-b9L"/>
+                                <constraint firstItem="eXb-Ox-iCQ" firstAttribute="leading" secondItem="kbe-03-pWd" secondAttribute="leading" constant="30" id="Sho-Pd-EUy"/>
+                                <constraint firstItem="eBi-aq-Gxw" firstAttribute="top" secondItem="0uM-Ip-BsK" secondAttribute="bottom" constant="50" id="e0K-l2-l03"/>
+                                <constraint firstAttribute="trailing" secondItem="eBi-aq-Gxw" secondAttribute="trailing" constant="96.5" id="gD2-Ke-2du"/>
+                                <constraint firstItem="cG9-6V-l0k" firstAttribute="top" secondItem="SDb-fg-MHL" secondAttribute="bottom" constant="20" id="wY1-p7-ZcN"/>
+                                <constraint firstItem="0uM-Ip-BsK" firstAttribute="top" secondItem="IZ3-0e-enD" secondAttribute="bottom" constant="5" id="xF5-24-Cg7"/>
+                                <constraint firstItem="oeS-Ao-Bkv" firstAttribute="top" secondItem="kbe-03-pWd" secondAttribute="top" constant="38" id="yD7-oG-YSt"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="kbe-03-pWd" secondAttribute="bottom" id="0ZT-kz-I9Z"/>
+                        <constraint firstItem="kbe-03-pWd" firstAttribute="width" secondItem="mmK-AL-CWX" secondAttribute="width" id="7IQ-9X-0OK"/>
+                        <constraint firstItem="kbe-03-pWd" firstAttribute="leading" secondItem="mmK-AL-CWX" secondAttribute="leading" id="TdJ-kc-ETi"/>
+                        <constraint firstAttribute="trailing" secondItem="kbe-03-pWd" secondAttribute="trailing" id="WrH-YN-M2w"/>
+                        <constraint firstItem="kbe-03-pWd" firstAttribute="top" secondItem="mmK-AL-CWX" secondAttribute="top" id="rRj-x5-K4c"/>
+                        <constraint firstItem="kbe-03-pWd" firstAttribute="height" secondItem="mmK-AL-CWX" secondAttribute="height" id="vES-pr-OtV"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="mmK-AL-CWX" secondAttribute="bottom" id="Ad4-ER-FbC"/>
+                <constraint firstItem="mmK-AL-CWX" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="N3F-U8-aDn"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="mmK-AL-CWX" secondAttribute="trailing" id="nms-Hs-klT"/>
+                <constraint firstItem="mmK-AL-CWX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="xrG-yG-U8F"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="roundedRectangle" width="300" height="64"/>
+    </resources>
+</document>
