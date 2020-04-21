@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		696FD07820528FA200787CA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696FD07720528FA200787CA7 /* AppDelegate.swift */; };
+		696FD07A20528FA200787CA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696FD07920528FA200787CA7 /* ViewController.swift */; };
+		696FD07D20528FA200787CA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696FD07B20528FA200787CA7 /* Main.storyboard */; };
+		696FD08020528FA200787CA7 /* RealRiyaaz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 696FD07E20528FA200787CA7 /* RealRiyaaz.xcdatamodeld */; };
+		696FD08220528FA200787CA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696FD08120528FA200787CA7 /* Assets.xcassets */; };
+		696FD08520528FA200787CA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696FD08320528FA200787CA7 /* LaunchScreen.storyboard */; };
+		696FD09020528FA200787CA7 /* RealRiyaazTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696FD08F20528FA200787CA7 /* RealRiyaazTests.swift */; };
+		696FD09B20528FA300787CA7 /* RealRiyaazUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696FD09A20528FA300787CA7 /* RealRiyaazUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		696FD08C20528FA200787CA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 696FD06C20528FA200787CA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 696FD07320528FA200787CA7;
+			remoteInfo = RealRiyaaz;
+		};
+		696FD09720528FA300787CA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 696FD06C20528FA200787CA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 696FD07320528FA200787CA7;
+			remoteInfo = RealRiyaaz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		696FD07420528FA200787CA7 /* RealRiyaaz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealRiyaaz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		696FD07720528FA200787CA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		696FD07920528FA200787CA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		696FD07C20528FA200787CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		696FD07F20528FA200787CA7 /* RealRiyaaz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RealRiyaaz.xcdatamodel; sourceTree = "<group>"; };
+		696FD08120528FA200787CA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		696FD08420528FA200787CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		696FD08620528FA200787CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		696FD08B20528FA200787CA7 /* RealRiyaazTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealRiyaazTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		696FD08F20528FA200787CA7 /* RealRiyaazTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealRiyaazTests.swift; sourceTree = "<group>"; };
+		696FD09120528FA300787CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		696FD09620528FA300787CA7 /* RealRiyaazUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealRiyaazUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		696FD09A20528FA300787CA7 /* RealRiyaazUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealRiyaazUITests.swift; sourceTree = "<group>"; };
+		696FD09C20528FA300787CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		696FD07120528FA200787CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		696FD08820528FA200787CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		696FD09320528FA300787CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		696FD06B20528FA200787CA7 = {
+			isa = PBXGroup;
+			children = (
+				696FD07620528FA200787CA7 /* RealRiyaaz */,
+				696FD08E20528FA200787CA7 /* RealRiyaazTests */,
+				696FD09920528FA300787CA7 /* RealRiyaazUITests */,
+				696FD07520528FA200787CA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		696FD07520528FA200787CA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				696FD07420528FA200787CA7 /* RealRiyaaz.app */,
+				696FD08B20528FA200787CA7 /* RealRiyaazTests.xctest */,
+				696FD09620528FA300787CA7 /* RealRiyaazUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		696FD07620528FA200787CA7 /* RealRiyaaz */ = {
+			isa = PBXGroup;
+			children = (
+				696FD07720528FA200787CA7 /* AppDelegate.swift */,
+				696FD07920528FA200787CA7 /* ViewController.swift */,
+				696FD07B20528FA200787CA7 /* Main.storyboard */,
+				696FD08120528FA200787CA7 /* Assets.xcassets */,
+				696FD08320528FA200787CA7 /* LaunchScreen.storyboard */,
+				696FD08620528FA200787CA7 /* Info.plist */,
+				696FD07E20528FA200787CA7 /* RealRiyaaz.xcdatamodeld */,
+			);
+			path = RealRiyaaz;
+			sourceTree = "<group>";
+		};
+		696FD08E20528FA200787CA7 /* RealRiyaazTests */ = {
+			isa = PBXGroup;
+			children = (
+				696FD08F20528FA200787CA7 /* RealRiyaazTests.swift */,
+				696FD09120528FA300787CA7 /* Info.plist */,
+			);
+			path = RealRiyaazTests;
+			sourceTree = "<group>";
+		};
+		696FD09920528FA300787CA7 /* RealRiyaazUITests */ = {
+			isa = PBXGroup;
+			children = (
+				696FD09A20528FA300787CA7 /* RealRiyaazUITests.swift */,
+				696FD09C20528FA300787CA7 /* Info.plist */,
+			);
+			path = RealRiyaazUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		696FD07320528FA200787CA7 /* RealRiyaaz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 696FD09F20528FA300787CA7 /* Build configuration list for PBXNativeTarget "RealRiyaaz" */;
+			buildPhases = (
+				696FD07020528FA200787CA7 /* Sources */,
+				696FD07120528FA200787CA7 /* Frameworks */,
+				696FD07220528FA200787CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealRiyaaz;
+			productName = RealRiyaaz;
+			productReference = 696FD07420528FA200787CA7 /* RealRiyaaz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		696FD08A20528FA200787CA7 /* RealRiyaazTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 696FD0A220528FA300787CA7 /* Build configuration list for PBXNativeTarget "RealRiyaazTests" */;
+			buildPhases = (
+				696FD08720528FA200787CA7 /* Sources */,
+				696FD08820528FA200787CA7 /* Frameworks */,
+				696FD08920528FA200787CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				696FD08D20528FA200787CA7 /* PBXTargetDependency */,
+			);
+			name = RealRiyaazTests;
+			productName = RealRiyaazTests;
+			productReference = 696FD08B20528FA200787CA7 /* RealRiyaazTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		696FD09520528FA300787CA7 /* RealRiyaazUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 696FD0A520528FA300787CA7 /* Build configuration list for PBXNativeTarget "RealRiyaazUITests" */;
+			buildPhases = (
+				696FD09220528FA300787CA7 /* Sources */,
+				696FD09320528FA300787CA7 /* Frameworks */,
+				696FD09420528FA300787CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				696FD09820528FA300787CA7 /* PBXTargetDependency */,
+			);
+			name = RealRiyaazUITests;
+			productName = RealRiyaazUITests;
+			productReference = 696FD09620528FA300787CA7 /* RealRiyaazUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		696FD06C20528FA200787CA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = sagar.gupta;
+				TargetAttributes = {
+					696FD07320528FA200787CA7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					696FD08A20528FA200787CA7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 696FD07320528FA200787CA7;
+					};
+					696FD09520528FA300787CA7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 696FD07320528FA200787CA7;
+					};
+				};
+			};
+			buildConfigurationList = 696FD06F20528FA200787CA7 /* Build configuration list for PBXProject "RealRiyaaz" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 696FD06B20528FA200787CA7;
+			productRefGroup = 696FD07520528FA200787CA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				696FD07320528FA200787CA7 /* RealRiyaaz */,
+				696FD08A20528FA200787CA7 /* RealRiyaazTests */,
+				696FD09520528FA300787CA7 /* RealRiyaazUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		696FD07220528FA200787CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696FD08520528FA200787CA7 /* LaunchScreen.storyboard in Resources */,
+				696FD08220528FA200787CA7 /* Assets.xcassets in Resources */,
+				696FD07D20528FA200787CA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		696FD08920528FA200787CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		696FD09420528FA300787CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		696FD07020528FA200787CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696FD08020528FA200787CA7 /* RealRiyaaz.xcdatamodeld in Sources */,
+				696FD07A20528FA200787CA7 /* ViewController.swift in Sources */,
+				696FD07820528FA200787CA7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		696FD08720528FA200787CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696FD09020528FA200787CA7 /* RealRiyaazTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		696FD09220528FA300787CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696FD09B20528FA300787CA7 /* RealRiyaazUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		696FD08D20528FA200787CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 696FD07320528FA200787CA7 /* RealRiyaaz */;
+			targetProxy = 696FD08C20528FA200787CA7 /* PBXContainerItemProxy */;
+		};
+		696FD09820528FA300787CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 696FD07320528FA200787CA7 /* RealRiyaaz */;
+			targetProxy = 696FD09720528FA300787CA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		696FD07B20528FA200787CA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				696FD07C20528FA200787CA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		696FD08320528FA200787CA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				696FD08420528FA200787CA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		696FD09D20528FA300787CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		696FD09E20528FA300787CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		696FD0A020528FA300787CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealRiyaaz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hiteshi.RealRiyaaz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		696FD0A120528FA300787CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealRiyaaz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hiteshi.RealRiyaaz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		696FD0A320528FA300787CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealRiyaazTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hiteshi.RealRiyaazTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealRiyaaz.app/RealRiyaaz";
+			};
+			name = Debug;
+		};
+		696FD0A420528FA300787CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealRiyaazTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hiteshi.RealRiyaazTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealRiyaaz.app/RealRiyaaz";
+			};
+			name = Release;
+		};
+		696FD0A620528FA300787CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealRiyaazUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hiteshi.RealRiyaazUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealRiyaaz;
+			};
+			name = Debug;
+		};
+		696FD0A720528FA300787CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealRiyaazUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hiteshi.RealRiyaazUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealRiyaaz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		696FD06F20528FA200787CA7 /* Build configuration list for PBXProject "RealRiyaaz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696FD09D20528FA300787CA7 /* Debug */,
+				696FD09E20528FA300787CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		696FD09F20528FA300787CA7 /* Build configuration list for PBXNativeTarget "RealRiyaaz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696FD0A020528FA300787CA7 /* Debug */,
+				696FD0A120528FA300787CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		696FD0A220528FA300787CA7 /* Build configuration list for PBXNativeTarget "RealRiyaazTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696FD0A320528FA300787CA7 /* Debug */,
+				696FD0A420528FA300787CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		696FD0A520528FA300787CA7 /* Build configuration list for PBXNativeTarget "RealRiyaazUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696FD0A620528FA300787CA7 /* Debug */,
+				696FD0A720528FA300787CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		696FD07E20528FA200787CA7 /* RealRiyaaz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				696FD07F20528FA200787CA7 /* RealRiyaaz.xcdatamodel */,
+			);
+			currentVersion = 696FD07F20528FA200787CA7 /* RealRiyaaz.xcdatamodel */;
+			path = RealRiyaaz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 696FD06C20528FA200787CA7 /* Project object */;
+}
