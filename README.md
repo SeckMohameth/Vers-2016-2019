@@ -14,7 +14,7 @@ I started this project back in December 2016. This was before I ever learned to 
 
 
 # Introduction
-![alt text](https://github.com/SeckMohameth/Vers-2016-2019/blob/master/Images/IMG_0759.jpeg?raw=true)
+![alt text](https://miro.medium.com/max/1400/1*q7tCD-Yho0cW-cQWqX3APA.jpeg)
 Vers, short for Versus, is a video sharing app and this version was specifically focused on sending video challenges to one another. The idea came to me after a week or two of using Snap chat for the first time. That same night sitting at the Kitchen table I came up with a few concepts for the app. I was brain storming ideas to make money and thought about making an app. At first I thought it would be easy, but then I started doing research. First, I found out you a need a Mac to build iOS apps and at the time I thought you just needed any computer to build for both Android and iOS. So much for that new HP computer I just bought for college. After more digging I learned about what a frontend was, and then a backend, and then databases, and well a lot of things I didn't know about at the time. I started a GoFundMe to get a Mac Book Pro and that raised $600. After finally finding a job I was able come up with the other half a buy a Mac.
 
 
