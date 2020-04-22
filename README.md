@@ -1,6 +1,5 @@
 # Vers-2016-2019
-[Link to Full Source Code] /
-(https://drive.google.com/drive/folders/1RRCxHqmEPtgGjKrN9bDYeedPZrXQj48f?usp=sharing)
+[Link to Full Source Code] (Update: will post soon)
 
 Throughout this README I added links below to documents and blog posts going more in depth about the app.
 
