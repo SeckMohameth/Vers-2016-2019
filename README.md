@@ -76,7 +76,7 @@ Ultimately, not being able to code or finding a techinical partner were big issu
 Project VRS is now just a long term fun side proeject. You can follow me on social media and the VRS social accounts for updates on the project. I have lots of ideas I want to explore and build with this one. It will continue to be a growing project. I'm proud I was able to create and launch my app idea, but this time I'm going to be the one to code it. This one has to come from my hands. I'm working on this in a private repo so you'll have to wait until it's live to see the new Vers.
 
 **Note**
-I will be publishing the very first version of the new Vers App in another repo after completing it. Along with a blog post explaining the new app. Stay tuned. 
+I will be publishing a blog post on medium explaining the new app and the old one. Stay tuned. 
 
 ## Author
 Mohameth Seck 
