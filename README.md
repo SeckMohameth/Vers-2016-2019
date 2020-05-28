@@ -1,5 +1,5 @@
 # Vers-2016-2019
-[Link to Full Source Code] (Update: will post soon)
+[Link to Full Source Code] (Update: some sensative info like private keys and such are in the source code. I decided I'll hold off on putting the code on github. Instead, be on the lookout for a repository on the new Vers app and a blog post detailing everything about the first one leading up to the newer version. The first version will be up on github, but I will be working on the project in a private repository.)
 
 Throughout this README I added links below to documents and blog posts going more in depth about the app.
 
