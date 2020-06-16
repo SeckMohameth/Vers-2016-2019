@@ -56,7 +56,7 @@ The idea for the video was that Vers is all about creating moments and inviting 
 
 I also wrote a business plan and pitch deck just in case the app took off 😉
 - [Pitch Deck](https://drive.google.com/file/d/17yzb53eJfQ7CHoI-VFvyepZnN_8WT9JJ/view?usp=sharing)
-- [Business Plan](https://drive.google.com/file/d/17yzb53eJfQ7CHoI-VFvyepZnN_8WT9JJ/view?usp=sharing)
+- [Business Plan](https://drive.google.com/file/d/1jdYdKxjmFYArBhJNCYEzdUrnNyymIhxL/view?usp=sharing)
  This one is old, but the only one I can find. I had a better plan than this one 💡
  
  ### More Background info
